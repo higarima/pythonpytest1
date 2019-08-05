@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skipped="0" tests="2" time="0.160"><testcase classname="test_sampleforXML" file="test_sampleforXML.py" line="1" name="test_file1method1" time="0.000"></testcase><testcase classname="test_sampleforXML" file="test_sampleforXML.py" line="7" name="test_file1method2" time="0.000"><failure message="AssertionError: test failed
+assert 4 == 1
+  -4
+  +1">def test_file1method2():
+        x=3
+        y=2
+&gt;       assert x+1==1,&quot;test failed&quot;
+E       AssertionError: test failed
+E       assert 4 == 1
+E         -4
+E         +1
+
+test_sampleforXML.py:11: AssertionError</failure></testcase></testsuite>
